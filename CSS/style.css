@@ -1,0 +1,287 @@
+html{
+    scroll-behavior: smooth;
+    font-family: 'Raleway', sans-serif;
+}
+body{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    vertical-align: middle;
+    align-items: center;
+}
+nav ul li{
+    display: inline;
+    margin-right: 30px;
+    font-weight: 500;
+}
+
+.selectHov:hover{
+    color: #0065FC;
+    cursor: pointer;
+}
+h2{
+    font-weight: bold;
+}
+p{
+    font-weight: 200;
+}
+
+#blocSearch{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+#icoSearch{
+    padding: 18px;
+    background-color: #F2F2F2;
+    border-radius: 60px 0 0 60px;
+}
+#locSearcg{
+    min-width: 15%;
+    border: solid 2px #F2F2F2;
+    padding: 0px 0px 0px 10px;
+    text-align: left;
+    font-weight: bold;
+}
+#textSearch{
+    padding: 0px 15px 0px 15px;
+    text-align: center;
+    background-color: #0065FC;
+    border-radius: 0px 60px 60px 0px;
+    border: solid #0065FC 1px
+}
+#textSearch:hover{
+    cursor: pointer;
+}
+#textSearch p{
+    color: white;
+    font-weight: 500;
+}
+.filter{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    
+}
+.cardFilter{
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   min-width: 15%; 
+}
+.cardBox{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px;
+}
+.cardBox:hover{
+    cursor: pointer;
+}
+.icoFilter{
+    border-radius: 100px;
+    background-color: #c1daff;
+    padding: 11px;
+    margin-right: -20px;
+    z-index: 10;
+    min-width: 20px;
+    text-align: center;
+}
+.textFilter p{
+    border: solid 2px #F2F2F2;
+    margin: auto;
+    padding: 10px 10px 10px 25px;
+    border-radius: 0px 100px 100px 0px;   
+}
+.fa-money-bill-wave, .fa-child, .fa-star, .fa-info{
+    color:#0065FC;
+}
+#info{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.icoInfo{
+    padding: 20px;
+}
+#hebergement{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#hebBox{
+    background-color: #F2F2F2;
+    width: 70%;
+    border-radius: 10px;
+}
+#hebBox H2, #more H4{
+    padding-left: 25px;
+}
+
+#hebergementBox{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+#populaireBox{
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 10px;    
+}
+.cardHeb{
+    border-radius: 20px;
+    padding: 5px;
+    background-color: white;
+    margin: 10px;
+    box-shadow: 1px 1px 1px 1px rgb(212, 211, 211);    
+    
+}
+.cardHeb:hover{
+    transform:translateY(-10px);
+    transition: 500ms;
+    cursor: pointer;
+}
+.cardPop{
+    display: inline-flex;
+    border-radius: 20px;
+    padding: 5px;
+    background-color: white;
+    margin: 20px;   
+    width: 300px; 
+}
+.cardPop:hover{
+    transform:translateY(-10px);
+    transition: 500ms;
+    cursor: pointer;
+}
+.imgCard{
+    width: 220px;
+    height: 120px;
+    border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
+}
+.textCardHeb{
+    margin:5px 0px 5px 15px;
+}
+.titleCard, .descCard{
+    margin: 0;
+}
+#titlePop{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;   
+}
+.imgCardPop{
+    width: 100px;
+    height: 110px;
+    border-radius: 20px 0px 0px 20px;
+    object-fit: cover;
+}
+.textCardPop{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 5px;
+}
+#actMars{
+    margin-top: 35px;
+}
+#boxActivity{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.boxCardAct{
+    box-shadow: 5px 5px 5px 0px #F2F2F2;
+    border-radius: 20px;
+    width: auto;
+    margin: 0;
+}
+.boxCardAct img{
+    width: 270px;
+    height: 300px;
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;
+}
+figcaption p{
+    padding: 5px;
+    font-weight: 500;
+}
+.underBox{
+    box-shadow: 5px 5px 5px 0px #F2F2F2;
+    border-radius: 20px; 
+    margin: 0;
+}
+.underBox img{
+    width: 270px;
+    height: 100px;
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;
+}
+.act1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+footer{
+    background-color: #F2F2F2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: 50px;
+    padding: 20px;
+}
+.menu ul li:first-child{
+    font-weight: 600;
+}
+.menu ul li{
+    list-style: none;
+    margin: 10px;
+    font-weight: 200;
+}
+
+@media (max-width: 1024px){
+    body{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    #populaireBox{
+        margin-top: 15px;
+        width: 100%;
+    }
+    #hebBox{
+        width: 100%;
+    }
+    #titlePop{
+        justify-content: space-around;
+    }
+    .cardPop{
+        width: auto;
+    }
+    #actMars{
+        margin: 10px;
+    }
+    #boxActivity{
+        justify-content: space-around;
+    }
+    .boxCardAct, .underBox{
+        margin-top: 20px;
+        
+    }
+
+}
+@media (max-width: 1024px){
+    .cardFilter{
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
