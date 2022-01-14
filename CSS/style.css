@@ -279,9 +279,19 @@ footer{
     }
 
 }
-@media (max-width: 1024px){
-    .cardFilter{
-        flex-direction: column;
-        justify-content: space-between;
+@media (max-width: 480px){
+    .cardFilter, #more{
+        display: none;
     }
+    #info{
+        justify-content: center;
+        text-align: center;
+    }
+    .intro{
+        text-align: center;
+    }
+    #blocSearch{
+        justify-content: center;
+    }
+    
 }
